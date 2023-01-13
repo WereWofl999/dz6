@@ -1,0 +1,160 @@
+body{
+    font-family:'Open Sans', sans-serif; 
+}
+ul{
+    display: block;
+    list-style: none;
+}
+.nach a{
+    text-decoration: none;
+}
+hr{
+ 
+width: 970px;
+
+}
+h2{
+    text-align: center;
+    margin-top: 100px;
+}
+p{
+    text-align: center;
+}
+.glav-ram{
+    width: 970px;
+    margin: 0 auto;
+}
+/*header*/
+
+.glav{
+    border-bottom: 1px solid #f6f6f6;
+}
+.hero{
+    display: flex;
+    justify-content: center; 
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.nach{
+    color: var(--second-font-color);
+}
+.hero .nach{
+    margin-right: 40px;
+}
+
+/*photo Den*/
+
+   
+
+.photo{
+    width: 970px;
+    height: 387px;
+}
+
+.miniden{
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px
+}
+/*me*/
+.About-me{
+    height: 500px
+}
+.zagolov{
+margin-top: 100px;
+text-align: center;
+
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 46px;
+text-align: center;
+color: #070707;
+}
+.me{
+    width: 480px;
+    height: 270px;
+    margin: 0 auto;
+    padding-top: 50px;
+
+}
+.text{
+    color: #070707;
+    
+    
+   
+    
+    padding: 0px;
+    gap: 30px;
+    
+    width: 480px;
+    height: 80px;
+
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+/*skills*/
+.skills{
+  
+
+font-weight: 700;
+
+
+
+ 
+}
+.vids{
+    
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #070707;
+}
+
+
+.robpzu{
+    text-align: center;
+    
+}
+
+.pzu{
+    display: flex;
+    justify-content: center;
+}
+.pzu .robpzu:not(:last-child){
+    margin-right: 40px;
+}
+.zirka{
+    margin-top: 60px;
+}
+.sos{
+    display: flex;
+    justify-content: center;
+}
+.sos li:not(:last-child){
+    margin-right:50px;
+}
+button{
+    display: block;
+    align-items: center;
+    border: none;
+    background-color: #070707 ;
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-radius: 22px;
+    padding: 10px 16px;
+    margin: auto;
+}
